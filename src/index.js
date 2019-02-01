@@ -17,7 +17,10 @@ import configureStore from './config/configureStore';
 
 import App from './components/containers/AppContainer';
 
-const { REACT_APP_PIWIK_URL, REACT_APP_PIWIK_ID, REACT_APP_SENTRY_DSN, REACT_APP_SENTRY_ENVIRONMENT } = process.env;
+const { REACT_APP_PIWIK_URL,
+        REACT_APP_PIWIK_ID,
+        REACT_APP_SENTRY_DSN,
+        REACT_APP_SENTRY_ENVIRONMENT } = process.env;
 
 const history = createHistory();
 
